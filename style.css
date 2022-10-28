@@ -10,6 +10,7 @@
 table {
     width: 500px;
     text-align: center;
+    
 }
 
 tr, td:not(.tabla1, .tabla2, .tabla3, .iva) {
@@ -20,6 +21,6 @@ tr, td:not(.tabla1, .tabla2, .tabla3, .iva) {
     border-bottom-color: rgb(51, 51, 51);
 }
 
-.iva {
+.iva, .title {
     background-color: rgb(42, 230, 255);
 }
